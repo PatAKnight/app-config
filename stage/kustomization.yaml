@@ -1,0 +1,5 @@
+bases:
+- github.com/mvazquezc/code-to-prod-blog/base
+- namespace.yaml
+patchesStrategicMerge:
+- deployment.yaml
