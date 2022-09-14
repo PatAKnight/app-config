@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: reverse-words
-        image: quay.io/rh_ee_pknight/app:test
+        image: quay.io/rh_ee_pknight/app:production
         env:
         - name: RELEASE
           value: "Production release"
